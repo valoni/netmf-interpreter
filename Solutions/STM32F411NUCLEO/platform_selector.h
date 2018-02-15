@@ -104,7 +104,7 @@
 #define STM32F4_SPI_MISO_PINS {PORT_PIN(GPIO_PORTA,6),PORT_PIN(GPIO_PORTB,14),PORT_PIN(GPIO_PORTC,11),PORT_PIN(GPIO_PORTA,11)} // PA6, PB14, PC11 , PA11 
 #define STM32F4_SPI_MOSI_PINS {PORT_PIN(GPIO_PORTA,7),PORT_PIN(GPIO_PORTB,15),PORT_PIN(GPIO_PORTC,12),PORT_PIN(GPIO_PORTA,1)}  // PA7, PB15, PC12 , PA1
 
-#define STM32F4_I2C_PORT     1
+#define STM32F4_I2C_PORT     3
 #define STM32F4_I2C_SCL_PIN  PORT_PIN(GPIO_PORTB,8) // PB8
 #define STM32F4_I2C_SDA_PIN  PORT_PIN(GPIO_PORTB,9) // PB9
 
@@ -116,10 +116,6 @@
 
 
 // User LEDs
-#define LED6                            PORT_PIN(GPIO_PORTA, 5) // Green
-#define LED5                            PORT_PIN(GPIO_PORTA, 5) // Green
-#define LED4                            PORT_PIN(GPIO_PORTA, 5) // Green
-#define LED3                            PORT_PIN(GPIO_PORTA, 5) // Green
 #define LED2                            PORT_PIN(GPIO_PORTA, 5) // Green
 #define LED1                            PORT_PIN(GPIO_PORTA, 5) // Green
 
