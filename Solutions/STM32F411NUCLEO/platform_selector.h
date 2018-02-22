@@ -68,7 +68,7 @@
 
 // Communication
 
-#define TOTAL_USART_PORT                3  
+#define TOTAL_USART_PORT                1  
 
 #define USART_DEFAULT_PORT              COM1
 #define USART_DEFAULT_BAUDRATE          115200
