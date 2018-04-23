@@ -23,7 +23,7 @@
 // NOTE: If these two strings are not present, the MFUSB KERNEL driver will *CRASH*
 // which, of course, causes Windows to crash
 #define     DISPLAY_NAME_SIZE      15   // "STM32F411NUCLEO"
-#define     FRIENDLY_NAME_SIZE      6   // "MB1136"
+#define     FRIENDLY_NAME_SIZE      4   // "4400"
 // index for the strings
 #define     MANUFACTURER_NAME_INDEX 1
 #define     PRODUCT_NAME_INDEX      2
@@ -200,7 +200,7 @@ const struct USB_DYNAMIC_CONFIGURATION UsbDefaultConfiguration =
         USB_STRING_DESCRIPTOR_HEADER_LENGTH + (sizeof(USB_STRING_CHAR) * FRIENDLY_NAME_SIZE),
         USB_STRING_DESCRIPTOR_TYPE
     },
-    { 'M', 'B', '1', '1', '3', '6' },
+    { '4', '4', '0', '0' },
 
     // OS Descriptor string for Extended OS Compat ID
     {
